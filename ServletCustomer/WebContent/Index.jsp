@@ -9,10 +9,21 @@
   
 <body>  
 <form action="ServletPrintCustomer">  
+<table>
 Enter your First Name:<input type="text" name="fname"/><br/>  
 Enter your Last Name:<input type="text" name="lname"/><br/>  
-  
+<label> Textarea:</label> <input type="textarea" name="fname"/><br/>  
+</table>  
+
+
 <input type="submit" value="search"/>  
+
+<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
 </form>  
 
 
